@@ -1,0 +1,14 @@
+<!--pages/teamTrip/teamTrip.wxml-->
+<view class='container'>
+  <view class='header' style='padding-top:{{postion.top}}px;'>
+    <view class='item'></view>
+    <view class='item'></view>
+    <view class='item'></view>
+  </view>
+  
+
+  <view class='box'>
+
+  </view>
+
+</view>

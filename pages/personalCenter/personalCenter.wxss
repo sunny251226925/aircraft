@@ -1,0 +1,55 @@
+/* pages/personalCenter/personalCenter.wxss */
+page .header{
+  height: 218px;
+  box-sizing: border-box;
+}
+.header-logo{
+  display: flex;
+  width: 100%;
+  height: 80px;
+  padding: 0 15px;
+  margin-top: 35px;
+  box-sizing: border-box;
+}
+.header-logo .logo{
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  border-radius: 50%;
+  padding-top: 0px;
+  text-align: center;
+  border:3px solid rgba(141,186,255,1);
+  box-sizing: border-box;
+}
+.header-logo .logo image{
+  width: 100%;
+  height: 100%;
+  vertical-align: inherit;
+}
+.header-logo .info{
+  width: 180px;
+  height: 40px;
+  padding: 20px 10px;
+  text-align: left;
+}
+.header-logo .link{
+  flex: 1;
+  height: 80px;
+  line-height: 80px;
+  text-align: right;
+}
+
+
+.list-box.personalCenter{
+  position: absolute;
+  top: -20px;
+  left: 15px;
+  width: calc(100vw - 30px);
+  top: -22px;
+  border-radius: 5px;
+  z-index: 9;
+  overflow: hidden;
+}
+.box{
+  background-color: #fff;
+}

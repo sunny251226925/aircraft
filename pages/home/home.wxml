@@ -1,0 +1,84 @@
+<!--pages/login/login.wxml-->
+<view class='container'>
+  <view class='header' style='padding-top:{{postion.top}}px;'>
+      <swiper
+        indicator-dots="{{indicatorDots}}"
+        autoplay="{{autoplay}}"
+        interval="{{interval}}"
+        duration="{{duration}}"
+        circular="{{circular}}"
+        vertical="{{vertical}}"
+        indicator-color="{{indicatorColor}}"
+        indicator-active-color="{{indicatorActiveColor}}">
+        <block wx:for="{{imgUrls}}" wx:key="{{index}}">
+          <swiper-item>
+            <image src="{{item}}" class="slide-image" />
+          </swiper-item>
+        </block>
+      </swiper>
+  </view>
+  
+
+  <view class='box'>
+      <view class="list-box home box-shadow-lan">
+          <view class="head"></view>
+          <view class="list">
+              <view class="list-item bg-color-lan">
+                <view class='content'>
+                    <view class='left'>
+                        <view class='box-radius'></view>
+                    </view>
+                    <view class='center center-style-1'>
+                        <view class="text-1">
+                            <text>飞机票</text>
+                        </view>
+                        <view class="text-2">
+                            <text>团体优惠/全球特价机票/服务保障</text>
+                        </view>
+                    </view>
+                    <view class='right'>
+                        <image src='/static/image/jiantou-you-bai.png'></image>
+                    </view>
+                </view>
+              </view>
+              <view class="list-item bg-color-lan">
+                <view class='content'>
+                    <view class='left'>
+                        <view class='box-radius'></view>
+                    </view>
+                    <view class='center center-style-1'>
+                        <view class="text-1">
+                            <text>火车票</text>
+                        </view>
+                        <view class="text-2">
+                            <text>抢票快/可选座/团体优惠</text>
+                        </view>
+                    </view>
+                    <view class='right'>
+                        <image src='/static/image/jiantou-you-bai.png'></image>
+                    </view>
+                </view>
+              </view>
+              <view class="list-item bg-color-lan">
+                <view class='content'>
+                    <view class='left'>
+                        <view class='box-radius'></view>
+                    </view>
+                    <view class='center center-style-1'>
+                        <view class="text-1">
+                            <text>定酒店</text>
+                        </view>
+                        <view class="text-2">
+                            <text>团体优惠票/全国特价酒店/服务保障</text>
+                        </view>
+                    </view>
+                    <view class='right'>
+                        <image src='/static/image/jiantou-you-bai.png'></image>
+                    </view>
+                </view>
+              </view>
+          </view>
+      </view>
+  </view>
+
+</view>

@@ -1,0 +1,63 @@
+<!--pages/register/register.wxml-->
+<view class='container lan'>
+  <view class='header' style='padding-top:{{postion.top}}px;'>
+    <view class='item'>
+        <image src='/static/image/jiantou-zuo.png' class='pageBack' bindtap='goPageBack'></image>
+    </view>
+    <view class='item'>忘记密码</view>
+    <view class='item'></view>
+  </view>
+  
+  <form bindsubmit="formSubmit" bindreset="formReset">
+    <view class='box'>
+      <view class='row'>
+        <view class='col-1'>
+          <input type='text' placeholder='请输入手机号' class='input-2' maxlength='11' name='phone'
+          bindinput='setPhone'></input>
+          <image src='/static/image/mobile.png' class='icon-img'></image>
+        </view>
+        <view class='col-last'>
+          <image src='/static/image/dui.png' class='img-22'></image>
+        </view>
+      </view>
+
+      <view class='row'>
+        <view class='col-1'>
+          <input type='text' placeholder='请输入验证码' class='input-2' maxlength='6' name="qrcode"></input>
+          <image src='/static/image/mobile.png' class='icon-img'></image>
+          <view class='getQrCode' bindtap='getQrCode'>获取验证码</view>
+        </view>
+        <view class='col-last'>
+          <image src='/static/image/dui.png' class='img-22'></image>
+        </view>
+      </view>
+
+      <view class='row'>
+        <view class='col-1'>
+          <input type='{{passType1}}' placeholder='请输入新密码' class='input-2' maxlength='16' name="password1"></input>
+          <image src='/static/image/pass.png' class='icon-img'></image>
+          <image src='/static/image/yanjing.png' class='eye' bindtap='eyeClick'></image>
+        </view>
+        <view class='col-last'>
+          <image src='/static/image/dui.png' class='img-22'></image>
+        </view>
+      </view>
+
+      <view class='row'>
+        <view class='col-1'>
+          <input type='{{passType2}}' placeholder='请确认新密码' class='input-2' maxlength='16' name="password"></input>
+          <image src='/static/image/pass.png' class='icon-img'></image>
+          <image src='/static/image/yanjing.png' class='eye' bindtap='eyeClick'></image>
+        </view>
+        <view class='col-last'>
+          <image src='/static/image/dui.png' class='img-22'></image>
+        </view>
+      </view>
+
+      <view class='row'>
+        <view form-type="submit" style='margin-top:70px;' class='btn-2 spacing'>确认修改</view>
+      </view>
+
+    </view>
+  </form>
+</view>

@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/teamTrip/teamTrip",
+    "pages/myTrip/myTrip",
+    "pages/personalCenter/personalCenter",
+    "pages/login/login",
+    "pages/register/register",
+    "pages/updatePass/updatePass",
+    "pages/updatePhone/updatePhone"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#0099ff",
+    "navigationBarTitleText": "优速行",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": false,
+    "navigationStyle": "custom"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "tabBar": {
+    "color": "#414141",
+    "selectedColor": "#1A67DE",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "iconPath": "static/image/icon-home.png",
+        "selectedIconPath": "static/image/icon-home-hover.png",
+        "pagePath": "pages/home/home",
+        "text": "西海航空"
+      },
+      {
+        "iconPath": "static/image/icon-team.png",
+        "selectedIconPath": "static/image/icon-team-hover.png",
+        "pagePath": "pages/login/login",
+        "text": "团队出行"
+      },
+      {
+        "iconPath": "static/image/icon-trip.png",
+        "selectedIconPath": "static/image/icon-trip-hover.png",
+        "pagePath": "pages/myTrip/myTrip",
+        "text": "我的行程"
+      },
+      {
+        "iconPath": "static/image/icon-center-hover.png",
+        "selectedIconPath": "static/image/icon-center-hover.png",
+        "pagePath": "pages/personalCenter/personalCenter",
+        "text": "个人中心"
+      }
+    ]
+  }
+}

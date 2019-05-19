@@ -1,0 +1,143 @@
+<!--pages/myTrip/myTrip.wxml-->
+<view class='container'>
+  <view class='header bg-color-lan' style='padding-top:{{postion.top}}px;'>
+    <view class='item'></view>
+    <view class='item'></view>
+    <view class='item'></view>
+  </view>
+
+  <view class='box' style='padding-top:0;'>
+      <scroll-view 
+          class="nav" 
+          scroll-x="true" 
+          scroll-left="{{navScrollLeft}}" 
+          scroll-with-animation="{{true}}">
+          <block wx:for="{{navData}}" wx:for-index="idx" wx:for-item="navItem" wx:key="idx">
+              <view class="nav-item {{currentTab == idx ?'active':''}}"  
+                    data-current="{{idx}}" 
+                    bindtap="switchNav">
+                    {{navItem.text}}
+              </view>
+          </block>
+      </scroll-view>
+
+      <view class='list-box myTrip'>
+          <view class='list-item box-shadow-hui b-bottom-1'>
+              <view class='list-item-col'>
+                  <view class='col-left'>
+                      <view class='icon'>
+                          <image src='/static/image/Gruop-feiji.png'></image>
+                      </view>
+                  </view>
+                  <view class='col-right'>
+                      <text class='type'>待改签</text>
+                  </view>
+              </view>
+              <view class='list-item-col'>
+                  <view class='col-left'>
+                      <view class='text-3'>
+                          <text>西安</text>
+                          <text>----</text>
+                          <text>杭州</text>
+                      </view>
+                      <view class='text-4'>
+                          <text>2019-01-19 12.30～14.50</text>
+                      </view>
+                      <view class='text-5'>
+                          <text>东方航空   航班号 HU8909</text>
+                      </view>
+                  </view>
+                  <view class='col-right'>
+                      <view class='text-3'>
+                          <text>￥790</text>
+                      </view>
+                  </view>
+              </view>
+              <view class='list-item-col'>
+                  <view class='col-right'>
+                      <view class='btn-3'>去支付</view>
+                  </view>
+              </view>
+          </view>
+
+          <view class='list-item box-shadow-hui b-bottom-1'>
+              <view class='list-item-col'>
+                  <view class='col-left'>
+                      <view class='icon'>
+                          <image src='/static/image/Group-huoche.png'></image>
+                      </view>
+                  </view>
+                  <view class='col-right'>
+                      <text class='type'>待改签</text>
+                  </view>
+              </view>
+              <view class='list-item-col'>
+                  <view class='col-left'>
+                      <view class='text-3'>
+                          <text>西安</text>
+                          <text>----</text>
+                          <text>杭州</text>
+                      </view>
+                      <view class='text-4'>
+                          <text>2019-01-19 12.30～14.50</text>
+                      </view>
+                      <view class='text-5'>
+                          <text>东方航空   航班号 HU8909</text>
+                      </view>
+                  </view>
+                  <view class='col-right'>
+                      <view class='text-3'>
+                          <text>￥790</text>
+                      </view>
+                  </view>
+              </view>
+              <view class='list-item-col'>
+                  <view class='col-right'>
+                      <view class='btn-3'>去支付</view>
+                  </view>
+              </view>
+          </view>
+
+          <view class='list-item box-shadow-hui b-bottom-1'>
+              <view class='list-item-col'>
+                  <view class='col-left'>
+                      <view class='icon'>
+                          <image src='/static/image/Group-jiudian.png'></image>
+                      </view>
+                  </view>
+                  <view class='col-right'>
+                      <text class='type'>待改签</text>
+                  </view>
+              </view>
+              <view class='list-item-col'>
+                  <view class='col-left'>
+                      <view class='text-3'>
+                          <text>西安</text>
+                          <text>----</text>
+                          <text>杭州</text>
+                      </view>
+                      <view class='text-4'>
+                          <text>2019-01-19 12.30～14.50</text>
+                      </view>
+                      <view class='text-5'>
+                          <text>东方航空   航班号 HU8909</text>
+                      </view>
+                  </view>
+                  <view class='col-right'>
+                      <view class='text-3'>
+                          <text>￥790</text>
+                      </view>
+                  </view>
+              </view>
+              <view class='list-item-col'>
+                  <view class='col-right'>
+                      <view class='btn-3'>去支付</view>
+                  </view>
+              </view>
+          </view>          
+
+      </view>
+  </view>
+
+</view>
+

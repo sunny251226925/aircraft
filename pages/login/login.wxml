@@ -1,0 +1,63 @@
+<!--pages/login/login.wxml-->
+<view class='container lan'>
+  <view class='header' style='padding-top:{{postion.top}}px;'>
+    <view class='item'></view>
+    <view class='item'></view>
+    <view class='item'></view>
+  </view>
+  
+
+  <view class='box'>
+
+    <view class='logo'>
+      <image src='/static/image/logo.png'></image>
+      <text>91 商旅</text>
+    </view>
+
+    <view class='row'>
+      <view class='col-1 title-1'>手机号码</view>
+    </view>
+    <view class='row'>
+      <view class='col-1'>
+        <input type='text' placeholder='请输入手机号/工号' class='input-1'></input>
+      </view>
+      <view class='col-last'>
+        <image src='/static/image/dui.png' class='img-22'></image>
+      </view>
+    </view>
+
+    <view class='row'>
+      <view class='col-1 title-1'>密码</view>
+    </view>
+    <view class='row'>
+      <view class='col-1'>
+        <input type='{{passType}}' placeholder='请输入密码' class='input-1' maxlength='16'></input>
+        <image src='/static/image/yanjing.png' class='eye' bindtap='eyeClick'></image>
+      </view>
+      <view class='col-last'>
+        <image src='/static/image/dui.png' class='img-22'></image>
+      </view>
+    </view>
+
+    <view class='row'>
+      <navigator url='/pages/updatePass/updatePass' 
+                 class='col-1 title-2' 
+                 hover-class="none" >
+                 忘记密码
+      </navigator>
+      <view class='col-last'></view>
+    </view>
+
+    <view class='text-center'>
+      <view class='btn-1 spacing' style='margin-top:30px;' bindtap='loginSubmit'>登录</view>
+    </view>
+
+    <navigator  url="/pages/register/register" 
+                class="title-3 underline" 
+                hover-class="none" 
+                style='margin-top:20px;'>
+                还没有账号？去注册
+    </navigator>
+  </view>
+
+</view>
