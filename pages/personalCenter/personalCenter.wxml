@@ -19,18 +19,27 @@
       </view>
   </view>
   
-  <view class='box'>
+  <view class='box white'>
   
-      <view class='list-box personalCenter'>
-          <view class='title b-bottom-1 text-6 bg-color-white'>
-              <text>我的订单</text>
+      <view class='personal'>
+          <view class='link-list box-shadow-lan'>
+              <view class='link'>
+                  <view class='link-left'>我的订单</view>
+                  <view class='link-right'>
+                      <image src='/static/image/jiantou-you-hui.png'></image>
+                  </view>
+              </view>
           </view>
-      </view>
 
-      <view class='list-box personalCenter'>
-          <view class='title b-bottom-1 text-6 bg-color-white'>
-              <text>我的订单</text>
+          <view class='link-list box-shadow-lan'>
+              <view class='link'>
+                  <view class='link-left'>我的订单</view>
+                  <view class='link-right'>
+                      <image src='/static/image/jiantou-you-hui.png'></image>
+                  </view>
+              </view>
           </view>
+          
       </view>
 
   </view>
