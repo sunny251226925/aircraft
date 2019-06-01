@@ -37,34 +37,34 @@ App({
       title: ''
     });
     return new Promise((resolve, reject) => {
-      wx.request({
-        header: params.header,
-        method: params.method,
-        url: params.url,
-        data: params.data,
-        complete: (res) => {
-          wx.hideLoading();
-          if (res.statusCode >= 200 && res.statusCode < 300) {
-            resolve(res.data)
-          } else {
-            if (res.statusCode == 401) {
-              wx.navigateTo({
-                url: '../login/login',
-              })
-              wx.setStorageSync("loginTips", res.data.message)
+        wx.request({
+          header: params.header,
+          method: params.method,
+          url: params.url,
+          data: params.data,
+          complete: (res) => {
+            wx.hideLoading();
+            if (res.statusCode >= 200 && res.statusCode < 300) {
+              resolve(res.data)
             } else {
-              reject(res)
+              if (res.statusCode == 401) {
+                wx.reLaunch({
+                  url: '/pages/login/login',
+                })
+                wx.setStorageSync("loginTips", res.data.message)
+              } else {
+                reject(res)
+              }
             }
           }
-        }
-      })
+        })
+
     })
   },
   onHide: function () {
 
   },
   pageBack: function(current){
-    console.log("1111")
     if (!current){
       current = 1;
     }
@@ -96,7 +96,8 @@ App({
     phone: /^1[3|4|5|6|7|8|9][0-9]{9}$/,
     email: /^[A-Za-z0-9\u4e00-\u9fa5]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/
   },
-  httpBase: "http://2d461091z7.zicp.vip"
-  //httpBase: "https://www.yiqunkejiwang.com"
+  httpBase: "http://120.77.211.208:8080"
+  // httpBase: "http://2d461091z7.zicp.vip"
+  // httpBase: "https://www.yiqunkejiwang.com"
 
 })

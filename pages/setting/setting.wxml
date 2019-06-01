@@ -1,0 +1,50 @@
+<view class='container lan'>
+  <view class='header bg-color-lan' style='padding-top:{{postion.top}}px;'>
+    <view class='item' bindtap='goPageBack'>
+        <image src='/static/image/jiantou-zuo-bai.svg' class='pageBack'></image>
+    </view>
+    <view class='item'>个人资料</view>
+    <view class='item'></view>
+  </view>
+
+  <view class='box white'>
+      <view class='list-dom'>
+
+          <view class='link-list box-shadow-lan'>
+              <view class='link'>
+                  <view class='link-left'>技术支持</view>
+                  <view class='link-right'>
+                      <image src='/static/image/jiantou-you-hui.png'></image>
+                  </view>
+              </view>
+          </view>
+
+          <view class='link-list box-shadow-lan'>
+              <view class='link'>
+                  <view class='link-left'>版本信息</view>
+                  <view class='link-right'>
+                      <image src='/static/image/jiantou-you-hui.png'></image>
+                  </view>
+              </view>
+              <view class='link'>
+                  <view class='link-left'>清除缓存</view>
+                  <view class='link-right'>
+                      60M
+                  </view>
+              </view>
+          </view>
+
+          <view class='link-list box-shadow-lan'>
+              <view class='link'>
+                  <view class='link-left'>去评分</view>
+                  <view class='link-right'>
+                      <image src='/static/image/jiantou-you-hui.png'></image>
+                  </view>
+              </view>
+          </view> 
+          
+      </view>
+
+  </view>
+
+</view>

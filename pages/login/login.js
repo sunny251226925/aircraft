@@ -20,8 +20,8 @@ Page({
   },
 
   //登录
-  loginSubmit: function(){
-
+  loginSubmit: function(e){
+    console.log(e)
   },
 
   /**

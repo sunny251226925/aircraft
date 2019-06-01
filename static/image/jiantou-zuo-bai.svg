@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="21px" viewBox="0 0 12 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Path</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="注册" transform="translate(-20.000000, -31.000000)" fill-rule="nonzero" fill="#FFFFFF">
+            <g id="Bars/Navigation/Navigation-Bar">
+                <g id="Group-9" transform="translate(20.000000, 31.000000)">
+                    <path d="M3.62132034,10.4210526 L11.5606602,2.54140709 C12.1464466,1.96002506 12.1464466,1.01741855 11.5606602,0.436036521 C10.9748737,-0.145345507 10.0251263,-0.145345507 9.43933983,0.436036521 L0.439339828,9.36836735 C-0.146446609,9.94974938 -0.146446609,10.8923559 0.439339828,11.4737379 L9.43933983,20.4060687 C10.0251263,20.9874508 10.9748737,20.9874508 11.5606602,20.4060687 C12.1464466,19.8246867 12.1464466,18.8820802 11.5606602,18.3006982 L3.62132034,10.4210526 Z" id="Path"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

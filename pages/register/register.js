@@ -8,7 +8,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-    passType: "text",
+    passType1: "password",
+    passType2: "password",
     getQrCode: "",
     phone: ""
   },
@@ -17,9 +18,14 @@ Page({
     app.pageBack();
   },
   //查看密码
-  eyeClick: function () {
+  eyeClick1: function () {
     this.setData({
-      passType: this.data.passType === "text" ? "password" : "text"
+      passType1: this.data.passType1 === "text" ? "password" : "text"
+    })
+  },
+  eyeClick2: function () {
+    this.setData({
+      passType2: this.data.passType2 === "text" ? "password" : "text"
     })
   },
   setPhone: function(e){
@@ -29,7 +35,7 @@ Page({
   },
   getQrCode: function(){
     app.http({
-      url: app.httpBase + '/common/app/getVerify/' + this.data.phone+'/register',
+      url: app.httpBase + '/common/app/getVerify/' + this.data.phone + '/register',
       method: "post"
     }).then(res => {
       console.log(res);

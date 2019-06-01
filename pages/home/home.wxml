@@ -26,7 +26,9 @@
               <view class="list-item bg-color-lan">
                 <view class='content'>
                     <view class='left'>
-                        <view class='box-radius'></view>
+                        <view class='box-radius'>
+                            <image src='/static/image/Group-feiji-bai.png'></image>
+                        </view>
                     </view>
                     <view class='center center-style-1'>
                         <view class="text-1">
@@ -37,14 +39,16 @@
                         </view>
                     </view>
                     <view class='right'>
-                        <image src='/static/image/jiantou-you-bai.png'></image>
+                        <image src='/static/image/jiantou-you-bai.svg'></image>
                     </view>
                 </view>
               </view>
               <view class="list-item bg-color-lan">
-                <view class='content'>
+                <navigator url='/pages/trainTicket/trainTicket' hover-class='none' class='content'>
                     <view class='left'>
-                        <view class='box-radius'></view>
+                        <view class='box-radius'>
+                            <image src='/static/image/Group-huoche-bai.png'></image>
+                        </view>
                     </view>
                     <view class='center center-style-1'>
                         <view class="text-1">
@@ -55,14 +59,16 @@
                         </view>
                     </view>
                     <view class='right'>
-                        <image src='/static/image/jiantou-you-bai.png'></image>
+                        <image src='/static/image/jiantou-you-bai.svg'></image>
                     </view>
-                </view>
+                </navigator>
               </view>
               <view class="list-item bg-color-lan">
                 <view class='content'>
                     <view class='left'>
-                        <view class='box-radius'></view>
+                        <view class='box-radius'>
+                            <image src='/static/image/Group-feiji-bai.png'></image>
+                        </view>
                     </view>
                     <view class='center center-style-1'>
                         <view class="text-1">
@@ -73,7 +79,7 @@
                         </view>
                     </view>
                     <view class='right'>
-                        <image src='/static/image/jiantou-you-bai.png'></image>
+                        <image src='/static/image/jiantou-you-bai.svg'></image>
                     </view>
                 </view>
               </view>

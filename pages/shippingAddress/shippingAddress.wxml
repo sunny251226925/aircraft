@@ -1,0 +1,63 @@
+<!--pages/shippingAddress/shippingAddress.wxml-->
+<view class='container lan'>
+  <view class='header bg-color-lan' style='padding-top:{{postion.top}}px;'>
+    <view class='item' bindtap='goPageBack'>
+        <image src='/static/image/jiantou-zuo-bai.svg' class='pageBack'></image>
+    </view>
+    <view class='item'>收货地址</view>
+    <view class='item'></view>
+  </view>
+
+  <view class='box white'>
+      <view class='address-list'>
+          <view class='address'>
+              <view class='item-left'>
+                  <image src='/static/image/icon-checkbox-not.png' class='checkbox'></image>
+              </view>
+              <view class='item-right box-shadow-lan'>
+                  <view class='info-list'>
+                      <view class='info'>
+                          <view class='icon'>
+                              <image src='/static/image/icon-gps.png'></image>
+                          </view>
+                          <view class='text'>
+                                <text>陕西省</text>
+                                <text>西安市</text>
+                                <text>陕西省</text>
+                          </view>
+                      </view>
+                      <view class='info'>
+                          <view class='icon'>
+                          </view>
+                          <view class='text small'>
+                                <text>陕西省</text>
+                                <text>西安市</text>
+                                <text>陕西省</text>
+                          </view>
+                      </view>
+                      <view class='info'>
+                          <view class='icon'>
+                              <image src='/static/image/icon-head.png'></image>
+                          </view>
+                          <view class='text'>胖子</view>
+                      </view>
+                      <view class='info'>
+                          <view class='icon'>
+                              <image src='/static/image/icon-phone.png'></image>
+                          </view>
+                          <view class='text'>18266669999</view>
+                      </view>
+                  </view>
+                  <view class='goRouter' bindtap='goRouter'>
+                      <image src='/static/image/jiantou-you-hui.png' class='img-22'></image>
+                  </view> 
+              </view>
+          </view>
+      </view>
+
+      <navigator url='/pages/shippingAddressAdd/shippingAddressAdd' class='row' hover-class='none'>
+        <view form-type="submit" style='margin-top:70px;' class='btn-2 spacing'>新增收货地址</view>
+      </navigator>
+  </view>
+
+</view>

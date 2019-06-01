@@ -1,8 +1,8 @@
 <!--pages/register/register.wxml-->
 <view class='container lan'>
   <view class='header' style='padding-top:{{postion.top}}px;'>
-    <view class='item'>
-        <image src='/static/image/jiantou-zuo.png' class='pageBack' bindtap='goPageBack'></image>
+    <view class='item' bindtap='goPageBack'>
+        <image src='/static/image/jiantou-zuo-bai.svg' class='pageBack'></image>
     </view>
     <view class='item'>更改手机号</view>
     <view class='item'></view>

@@ -1,0 +1,61 @@
+<view class='container lan'>
+  <view class='header bg-color-lan' style='padding-top:{{postion.top}}px;'>
+    <view class='item' bindtap='goPageBack'>
+        <image src='/static/image/jiantou-zuo-bai.svg' class='pageBack'></image>
+    </view>
+    <view class='item'>个人资料</view>
+    <view class='item'></view>
+  </view>
+
+  <view class='box white'>
+      <view class='list-dom'>
+          <view class='link-list box-shadow-lan'>
+              <view class='link avatar'>
+                  <view class='link-left'>
+                      <image src='/static/image/logo.png'></image>
+                  </view>
+                  <navigator url="/pages/setting/setting" class='link-right underline' hover-class="none">
+                      <image src='/static/image/jiantou-you-hui.svg'></image>
+                  </navigator>
+              </view>
+          </view>
+          
+
+          <view class='link-list box-shadow-lan'>
+              <view class='link'>
+                  <view class='link-left'>修改手机号</view>
+                  <navigator url="/pages/modifyPhone/modifyPhone" class='link-right underline' hover-class="none">
+                      <image src='/static/image/jiantou-you-hui.svg'></image>
+                  </navigator>
+              </view>
+              <view class='link'>
+                  <view class='link-left'>工号</view>
+                  <view class='link-right'>
+                      <image src='/static/image/jiantou-you-hui.svg'></image>
+                  </view>
+              </view>
+              <view class='link'>
+                  <view class='link-left'>修改密码</view>
+                  <navigator url="/pages/modifyPass/modifyPass" class='link-right underline' hover-class="none">
+                      <image src='/static/image/jiantou-you-hui.svg'></image>
+                  </navigator>
+              </view>
+              <view class='link'>
+                  <view class='link-left'>收货地址</view>
+                  <navigator url="/pages/shippingAddress/shippingAddress" class='link-right underline' hover-class="none">
+                      <image src='/static/image/jiantou-you-hui.svg'></image>
+                  </navigator>
+              </view>
+              <view class='link'>
+                  <view class='link-left'>修改实名信息</view>
+                  <navigator url="/pages/modifyRealName/modifyRealName" class='link-right underline' hover-class="none">
+                      <image src='/static/image/jiantou-you-hui.svg'></image>
+                  </navigator>
+              </view>
+          </view>
+          
+      </view>
+
+  </view>
+
+</view>

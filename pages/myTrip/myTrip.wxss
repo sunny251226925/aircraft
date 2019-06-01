@@ -1,6 +1,17 @@
 /* pages/myTrip/myTrip.wxss */
+.header{
+  background-color: #1A67DE;
+}
+.header .item{
+  height: 32px;
+  background-color: #1A67DE;
+}
+.box{
+  top: 31px;
+  background-color: #fff;
+}
 .nav {
-  position: relative;
+    position: relative;
     height: 50px;
     width: 100%;
     box-sizing: border-box;

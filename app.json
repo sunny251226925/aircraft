@@ -4,10 +4,20 @@
     "pages/teamTrip/teamTrip",
     "pages/myTrip/myTrip",
     "pages/personalCenter/personalCenter",
+    "pages/userInfo/userInfo",
+    "pages/setting/setting",
     "pages/login/login",
     "pages/register/register",
     "pages/updatePass/updatePass",
-    "pages/updatePhone/updatePhone"
+    "pages/modifyPass/modifyPass",
+    "pages/modifyRealName/modifyRealName",
+    "pages/shippingAddress/shippingAddress",
+    "pages/shippingAddressEdit/shippingAddressEdit",
+    "pages/shippingAddressAdd/shippingAddressAdd",
+    "pages/modifyPhone/modifyPhone",
+    "pages/updatePhone/updatePhone",
+    "pages/trainTicket/trainTicket",
+    "pages/trainTicketList/trainTicketList"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -48,11 +58,12 @@
         "text": "我的行程"
       },
       {
-        "iconPath": "static/image/icon-center-hover.png",
+        "iconPath": "static/image/icon-center.png",
         "selectedIconPath": "static/image/icon-center-hover.png",
         "pagePath": "pages/personalCenter/personalCenter",
         "text": "个人中心"
       }
     ]
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }

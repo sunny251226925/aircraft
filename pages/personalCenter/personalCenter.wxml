@@ -13,32 +13,78 @@
                   <text>手机号，138****0011</text>
               </view>
           </view>
-          <view class='link'>
-              <image src='/static/image/jiantou-zuo.png' class='jiantou-zuo'></image>
+          <view class='link' >
+              <navigator url="/pages/userInfo/userInfo" class="underline" hover-class="none" >
+                  <image src='/static/image/jiantou-you-bai.svg' class='jiantou-zuo'></image>
+              </navigator>
           </view>
       </view>
   </view>
   
   <view class='box white'>
   
-      <view class='personal'>
+      <view class='list-dom'>
           <view class='link-list box-shadow-lan'>
               <view class='link'>
                   <view class='link-left'>我的订单</view>
                   <view class='link-right'>
-                      <image src='/static/image/jiantou-you-hui.png'></image>
+                      <image src='/static/image/jiantou-you-hui.svg'></image>
+                  </view>
+              </view>
+              <view class='row-auto'>
+                  <view class='link-tag col-1'>
+                      <image src='/static/image/Group-1.svg'></image>
+                      <view class='title'>全部</view>
+                  </view>
+                  <view class='link-tag col-1'>
+                      <image src='/static/image/Group-2.svg'></image>
+                      <view class='title'>待支付</view>
+                  </view>
+                  <view class='link-tag col-1'>
+                      <image src='/static/image/Group-3.svg'></image>
+                      <view class='title'>待使用</view>
+                  </view>
+                  <view class='link-tag col-1'>
+                      <image src='/static/image/Group-4.svg'></image>
+                      <view class='title'>待评价</view>
+                  </view>
+                  <view class='link-tag col-1'>
+                      <image src='/static/image/Group-5.svg'></image>
+                      <view class='title'>待失效</view>
+                  </view>
+                  <view class='link-tag col-1'>
+                      <image src='/static/image/Group-6.svg'></image>
+                      <view class='title'>待退款/失效</view>
                   </view>
               </view>
           </view>
 
           <view class='link-list box-shadow-lan'>
               <view class='link'>
-                  <view class='link-left'>我的订单</view>
+                  <view class='link-left'>公司信息</view>
                   <view class='link-right'>
-                      <image src='/static/image/jiantou-you-hui.png'></image>
+                      <image src='/static/image/jiantou-you-hui.svg'></image>
                   </view>
               </view>
           </view>
+
+
+          <view style='line-height: 30px;padding-left:20px;font-size:12px;'>系统信息</view>
+          <view class='link-list box-shadow-lan'>
+              <view class='link'>
+                  <view class='link-left'>联系客服</view>
+                  <view class='link-right'>
+                      <image src='/static/image/jiantou-you-hui.svg'></image>
+                  </view>
+              </view>
+              <view class='link'>
+                  <view class='link-left'>关于我们</view>
+                  <view class='link-right'>
+                      <image src='/static/image/jiantou-you-hui.svg'></image>
+                  </view>
+              </view>
+          </view>
+          
           
       </view>
 

@@ -1,0 +1,134 @@
+<view class='container lan'>
+  <view class='header bg-color-lan' style='padding-top:{{postion.top}}px;'>
+    <view class='item' bindtap='goPageBack'>
+        <image src='/static/image/jiantou-zuo-bai.svg' class='pageBack'></image>
+    </view>
+    <view class='item'>西安-北京</view>
+    <view class='item'></view>
+  </view>
+
+  <view class='box white padding'>
+      <view class='date-time box-shadow-lan'>
+          <view class='col-1 text-left' bindtap='dayBefore()'>
+              <image src='/static/image/jiantou-zuo-hui.svg' class='icon-jiantou'></image>
+              <text>前一天</text>
+          </view>
+          <view class='col-1 text-center'>
+              <text>3月18日</text>
+              <text>周三</text>
+              <view class="dateImg">
+                  <image src='/static/image/icon-date.svg'></image>
+              </view>
+          </view>
+          <view class='col-1 text-right' bindtap='daAfter()'>
+              <text>后一天</text>
+              <image src='/static/image/jiantou-you-hui.svg' class='icon-jiantou'></image>
+          </view>
+      </view>
+
+      <view class='date-time box-shadow-lan'>
+          <view class='col-1' bindtap='dayBefore()'>
+              <text>最先出发</text>
+              <image src='/static/image/jiantou-xia-hui.svg' class='icon-jiantou2'></image>
+          </view>
+          <view class='col-1'>
+              <text>全部车型</text>
+              <image src='/static/image/jiantou-xia-hui.svg' class='icon-jiantou2'></image>
+          </view>
+          <view class='col-1' bindtap='daAfter()'>
+              <text>车站筛选</text>
+              <image src='/static/image/jiantou-xia-hui.svg' class='icon-jiantou2'></image>
+          </view>
+          <view class='col-1' bindtap='daAfter()'>
+              <text>有票优先</text>
+          </view>
+      </view>
+
+      <view class='ticket-list'>
+          <view class='ticket box-shadow-lan radius'>
+              <view class='info row'>
+                  <view class='col-1 text-center'>
+                      <view class='font-size-24 color-48'>00:10</view>
+                      <view class='color-7d'>西安</view>
+                  </view>
+                  <view class='col-1 text-center'>
+                      <view class='font-size-12 color-7d'>
+                          <view>K185</view>
+                          <image src='/static/image/icon-line.svg' class='line'></image>
+                      </view>
+                      <view class='color-7d'>13:01</view>
+                  </view>
+                  <view class='col-1 text-center'>
+                      <view class='font-size-24 color-48'>00:10</view>
+                      <view class='color-7d'>西安</view>
+                  </view>
+                  <view class='col-1 text-right'>
+                      <text class='font-size-24 color-cheng'>￥790</text>
+                      <text class='color-7d'>起</text>
+                  </view>
+              </view>
+              <view class='date-time'>
+                  <view class='col-1'>
+                      <text class="color-7d">硬座：</text>
+                      <text class="color-cheng">预约</text>
+                  </view>
+                  <view class='col-1'>
+                      <text class="color-7d">硬卧：</text>
+                      <text class="color-cheng">预约</text>
+                  </view>
+                  <view class='col-1'>
+                      <text class="color-7d">软卧：</text>
+                      <text class="color-cheng">预约</text>
+                  </view>
+                  <view class='col-1'>
+                      <text class="color-7d">无座：</text>
+                      <text class="color-cheng">有票</text>
+                  </view>
+              </view>
+          </view>
+
+          <view class='ticket box-shadow-lan radius'>
+              <view class='info row'>
+                  <view class='col-1 text-center'>
+                      <view class='font-size-24 color-48'>00:10</view>
+                      <view class='color-7d'>西安</view>
+                  </view>
+                  <view class='col-1 text-center'>
+                      <view class='font-size-12 color-7d'>
+                          <view>K185</view>
+                          <image src='/static/image/icon-line.svg' class='line'></image>
+                      </view>
+                      <view class='color-7d'>13:01</view>
+                  </view>
+                  <view class='col-1 text-center'>
+                      <view class='font-size-24 color-48'>00:10</view>
+                      <view class='color-7d'>西安</view>
+                  </view>
+                  <view class='col-1 text-right'>
+                      <text class='font-size-24 color-cheng'>￥790</text>
+                      <text class='color-7d'>起</text>
+                  </view>
+              </view>
+              <view class='date-time'>
+                  <view class='col-1'>
+                      <text class="color-7d">硬座：</text>
+                      <text class="color-cheng">预约</text>
+                  </view>
+                  <view class='col-1'>
+                      <text class="color-7d">硬卧：</text>
+                      <text class="color-cheng">预约</text>
+                  </view>
+                  <view class='col-1'>
+                      <text class="color-7d">软卧：</text>
+                      <text class="color-cheng">预约</text>
+                  </view>
+                  <view class='col-1'>
+                      <text class="color-7d">无座：</text>
+                      <text class="color-cheng">有票</text>
+                  </view>
+              </view>
+          </view>
+      </view>
+  </view>
+
+</view>

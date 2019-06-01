@@ -31,6 +31,20 @@ Page({
     this.setData({
       postion: wx.getMenuButtonBoundingClientRect()
     })
+    app.http({
+      url: app.httpBase + '/web/getCurrentUser',
+      method: "get"
+    }).then(res => {
+      let result = res;
+      if (result.code == 200) {
+
+      } else {
+        wx.showToast({
+          icon: 'none',
+          title: result.msg
+        })
+      }
+    })
   },
 
   /**

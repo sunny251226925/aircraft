@@ -1,0 +1,54 @@
+<view class='container lan'>
+  <view class='header bg-color-lan' style='padding-top:{{postion.top}}px;'>
+    <view class='item' bindtap='goPageBack'>
+        <image src='/static/image/jiantou-zuo-bai.svg' class='pageBack'></image>
+    </view>
+    <view class='item'>火车票</view>
+    <view class='item'></view>
+  </view>
+
+  <view class='box white padding'>
+      <view class='trainTicket box-shadow-lan'>
+          <view class='row'>
+              <view class='col-1 text-left font-size-18'>西安</view>
+              <view class='img'>
+                  <image src='/static/image/icon-switching.png' class='switching'></image>
+              </view>
+              <view class='col-1 text-right font-size-18'>北京</view>
+          </view>
+          <view class='row'>
+              <view class='col-1 text-left'>
+                  <text class='font-size-20 color-48'>3月18日</text>
+                  <text class="color-7d">明天</text>
+              </view>
+              <view class='col-1 text-right'>
+                  <image src='/static/image/jiantou-you-hui.svg' class='icon-jiantou'></image>
+              </view>
+          </view>
+          <view class='row'>
+              <view class='col-1-wrap text-left'>
+                  <view class='icon-radio'>
+                      <image src='/static/image/icon-radio-ok.svg'></image>
+                  </view>
+                  <text class="color-7d">学生票查询</text>
+              </view>
+              <view class='col-1-wrap text-right'>
+                  <view class='icon-radio'>
+                      <image src='/static/image/icon-radio-no.svg'></image>
+                  </view>
+                  <text class="color-7d">只看高铁票</text>
+              </view>
+              <view class='col-2-wrap text-center mg-t-10'>
+                  <navigator url='/pages/trainTicketList/trainTicketList' hover-class='none'>
+                      <button class='btn-2'>开始搜索</button>
+                  </navigator>    
+              </view>
+              <view class='col-1 text-center mg-t-10'>
+                  <view class='left-1 font-size-12 color-7d text-left'>北京-西安</view>
+                  <view class='left-1 font-size-12 color-48 text-right'>清除历史</view>
+              </view>
+          </view>
+      </view>
+  </view>
+
+</view>

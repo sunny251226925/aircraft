@@ -1,0 +1,50 @@
+<view class='container lan'>
+  <view class='header bg-color-lan' style='padding-top:{{postion.top}}px;'>
+    <view class='item' bindtap='goPageBack'>
+        <image src='/static/image/jiantou-zuo-bai.svg' class='pageBack'></image>
+    </view>
+    <view class='item'>编辑收货地址</view>
+    <view class='item'></view>
+  </view>
+
+  <view class='box white'>
+      <view class='list-dom'>
+          <view class='link-list box-shadow-lan'>
+              <view class='link'>
+                  <view class='link-left'>选择省/市/区</view>
+                  <view url="/pages/modifyRealName/modifyRealName" class='link-right col-1'>
+                      <text class='text-7'>1123123</text>
+                      <image src='/static/image/jiantou-you-hui.png' class='icon-position'></image>
+                  </view>
+              </view>
+              <view class='link'>
+                  <view class='link-left'>详细地址</view>
+                  <view url="/pages/modifyRealName/modifyRealName" class='link-right col-1'>
+                      <text class='text-7'>1123123</text>
+                      <image src='/static/image/jiantou-you-hui.png' class='icon-position'></image>
+                  </view>
+              </view>
+              <view class='link'>
+                  <view class='link-left'>收货人</view>
+                  <view url="/pages/modifyRealName/modifyRealName" class='link-right col-1'>
+                      <text class='text-7'>1123123</text>
+                      <image src='/static/image/jiantou-you-hui.png' class='icon-position'></image>
+                  </view>
+              </view>
+              <view class='link'>
+                  <view class='link-left'>收货人电话</view>
+                  <view url="/pages/modifyRealName/modifyRealName" class='link-right col-1'>
+                      <text class='text-7'>1123123</text>
+                      <image src='/static/image/jiantou-you-hui.png' class='icon-position'></image>
+                  </view>
+              </view>
+          </view>
+
+          <view class="text-center">
+            <image src='/static/image/icon-checkbox-not.png' class='changeCheckbox'></image>
+            <text>设为默认收货地址</text>
+          </view>
+      </view>
+  </view>
+
+</view>

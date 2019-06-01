@@ -7,7 +7,6 @@ Page({
    * 页面的初始数据
    */
   data: {
-    postion: null,
     motto: 'Hello World',
     userInfo: {},
     hasUserInfo: false,

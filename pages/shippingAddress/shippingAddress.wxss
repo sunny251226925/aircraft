@@ -1,0 +1,72 @@
+/* pages/shippingAddress/shippingAddress.wxss */
+.address-list{
+  position: relative;
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+}
+.address-list .address{
+  display: flex;
+  margin-bottom: 15px;
+}
+.address-list .address .item-left{
+  position: relative;
+  width: 30px;
+}
+.checkbox{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 50%;
+  left: 0;
+  transform: translate(0,-50%);
+}
+.address-list .address .item-right{
+  flex: 1;
+  display: flex;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.info-list{
+  flex: 1;
+}
+.info{
+  display: flex;
+  margin-bottom: 5px;
+}
+.info .icon{
+  width: 30px;
+  text-align: left;
+  line-height: 20px;
+}
+.info .icon image{
+  width: 18px;
+  height: 20px;
+  vertical-align: middle;
+}
+.info .text{
+  flex: 1;
+  line-height: 20px;
+}
+.info .text text{
+  margin-right: 5px;
+}
+.info .text.small text{
+  font-size: 12px;
+  color: #9D9D9D;
+}
+.goRouter{
+  position: relative;
+  width: 15px;
+  text-align: right;
+}
+.goRouter image{
+  position: absolute;
+  width:10px;
+  height:18px;
+  top: 50%;
+  right: 0;
+  transform: translate(0,-50%);
+}
