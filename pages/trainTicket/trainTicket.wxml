@@ -1,11 +1,5 @@
 <view class='container lan'>
-  <view class='header bg-color-lan' style='padding-top:{{postion.top}}px;'>
-    <view class='item' bindtap='goPageBack'>
-        <image src='/static/image/jiantou-zuo-bai.svg' class='pageBack'></image>
-    </view>
-    <view class='item'>火车票</view>
-    <view class='item'></view>
-  </view>
+  <title title="火车票"></title>
 
   <view class='box white padding'>
       <view class='trainTicket box-shadow-lan'>

@@ -1,0 +1,8 @@
+<!--component/title.wxml-->
+<view class='header' style='padding-top:{{postion.top}}px;'>
+    <view class='item' bindtap='goPageBack'>
+        <image src='/static/image/jiantou-zuo-bai.svg' class='pageBack' hidden='{{back}}'></image>
+    </view>
+    <view class='item'>{{title}}</view>
+    <view class='item'></view>
+</view>

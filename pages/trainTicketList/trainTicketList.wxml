@@ -1,11 +1,5 @@
 <view class='container lan'>
-  <view class='header bg-color-lan' style='padding-top:{{postion.top}}px;'>
-    <view class='item' bindtap='goPageBack'>
-        <image src='/static/image/jiantou-zuo-bai.svg' class='pageBack'></image>
-    </view>
-    <view class='item'>西安-北京</view>
-    <view class='item'></view>
-  </view>
+  <title title="西安-北京"></title>
 
   <view class='box white padding'>
       <view class='date-time box-shadow-lan'>
@@ -45,7 +39,7 @@
       </view>
 
       <view class='ticket-list'>
-          <view class='ticket box-shadow-lan radius'>
+          <navigator url='/pages/orderFillin/orderFillin' hover-class='none' class='ticket box-shadow-lan radius'>
               <view class='info row'>
                   <view class='col-1 text-center'>
                       <view class='font-size-24 color-48'>00:10</view>
@@ -85,49 +79,8 @@
                       <text class="color-cheng">有票</text>
                   </view>
               </view>
-          </view>
+          </navigator>
 
-          <view class='ticket box-shadow-lan radius'>
-              <view class='info row'>
-                  <view class='col-1 text-center'>
-                      <view class='font-size-24 color-48'>00:10</view>
-                      <view class='color-7d'>西安</view>
-                  </view>
-                  <view class='col-1 text-center'>
-                      <view class='font-size-12 color-7d'>
-                          <view>K185</view>
-                          <image src='/static/image/icon-line.svg' class='line'></image>
-                      </view>
-                      <view class='color-7d'>13:01</view>
-                  </view>
-                  <view class='col-1 text-center'>
-                      <view class='font-size-24 color-48'>00:10</view>
-                      <view class='color-7d'>西安</view>
-                  </view>
-                  <view class='col-1 text-right'>
-                      <text class='font-size-24 color-cheng'>￥790</text>
-                      <text class='color-7d'>起</text>
-                  </view>
-              </view>
-              <view class='date-time'>
-                  <view class='col-1'>
-                      <text class="color-7d">硬座：</text>
-                      <text class="color-cheng">预约</text>
-                  </view>
-                  <view class='col-1'>
-                      <text class="color-7d">硬卧：</text>
-                      <text class="color-cheng">预约</text>
-                  </view>
-                  <view class='col-1'>
-                      <text class="color-7d">软卧：</text>
-                      <text class="color-cheng">预约</text>
-                  </view>
-                  <view class='col-1'>
-                      <text class="color-7d">无座：</text>
-                      <text class="color-cheng">有票</text>
-                  </view>
-              </view>
-          </view>
       </view>
   </view>
 

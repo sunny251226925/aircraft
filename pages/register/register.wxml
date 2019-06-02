@@ -1,12 +1,6 @@
 <!--pages/register/register.wxml-->
 <view class='container lan'>
-  <view class='header' style='padding-top:{{postion.top}}px;'>
-    <view class='item' bindtap='goPageBack'>
-        <image src='/static/image/jiantou-zuo-bai.svg' class='pageBack'></image>
-    </view>
-    <view class='item'>注册</view>
-    <view class='item'></view>
-  </view>
+  <title title="注册"></title>
   
   <form bindsubmit="formSubmit" bindreset="formReset">
     <view class='box'>

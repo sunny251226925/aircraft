@@ -1,12 +1,6 @@
 <!--pages/shippingAddress/shippingAddress.wxml-->
 <view class='container lan'>
-  <view class='header bg-color-lan' style='padding-top:{{postion.top}}px;'>
-    <view class='item' bindtap='goPageBack'>
-        <image src='/static/image/jiantou-zuo-bai.svg' class='pageBack'></image>
-    </view>
-    <view class='item'>收货地址</view>
-    <view class='item'></view>
-  </view>
+  <title title="收货地址"></title>
 
   <view class='box white'>
       <view class='address-list'>

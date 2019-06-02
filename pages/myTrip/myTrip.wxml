@@ -1,10 +1,6 @@
 <!--pages/myTrip/myTrip.wxml-->
 <view class='container bg-color-lan'>
-  <view class='header' style='padding-top:{{postion.top}}px;'>
-    <view class='item'></view>
-    <view class='item'>我的行程</view>
-    <view class='item'></view>
-  </view>
+  <title back="true" title="修改真实姓名"></title>
 
   <view class='box' style='padding-top:0;'>
       <scroll-view 

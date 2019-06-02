@@ -17,7 +17,8 @@
     "pages/modifyPhone/modifyPhone",
     "pages/updatePhone/updatePhone",
     "pages/trainTicket/trainTicket",
-    "pages/trainTicketList/trainTicketList"
+    "pages/trainTicketList/trainTicketList",
+    "pages/orderFillin/orderFillin"
   ],
   "window": {
     "backgroundTextStyle": "light",

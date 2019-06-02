@@ -1,10 +1,6 @@
 <!--pages/login/login.wxml-->
 <view class='container lan'>
-  <view class='header' style='padding-top:{{postion.top}}px;'>
-    <view class='item'></view>
-    <view class='item'></view>
-    <view class='item'></view>
-  </view>
+  <title back="true"></title>
   
 
   <view class='box'>
